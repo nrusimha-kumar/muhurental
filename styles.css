@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/* CSS document for ALEXA Rental web site*/
+
+.center {
+  text-align: center;
+ }
+
+.bodyStyle {
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'sans-serif';
+	font-size: 15px;
+}
+
+.mainHeader {
+  	font-family: "Comic Sans MS", cursive;
+	font-size: 60px;
+	line-height: 66px;
+	color: #000;
+	text-align: center;
+}
+.cursiveText {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000;
+	text-align: center;
+}
+
+
+.list-card-horizontal{margin:0;width:100%}
+.list-card{margin:0;position:relative;width:320px;z-index:0}
+.list-card-price,.priceStyles{font-size:24px;font-weight:600;margin-bottom:0}
+.list-card{background:#FFF;border-bottom:4px solid #006AFF;box-shadow:0 1px 2px rgba(0,0,0,.2);cursor:pointer}
+.list-card_over-map{box-shadow:0 2px 4px rgba(0,0,0,.3);border-bottom:4px solid #FFF}
+.list-card-info{padding:5px 8px 7px}
+.list-card .list-card-info .list-card-details{margin:8px 0 0}
+.list-card-addr,.list-card-details,.list-card-favorites-info,.list-card-footer,.list-card-heading,.list-card-link,.list-card-truncate,.list-card-type,.list-card-variable-text{margin:0;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.list-card-heading{line-height:1;margin-bottom:0;order:1}
+.list-card-price{line-height:32px;height:32px;display:inline-block}
+.list-card-price>abbr{font-size:14px}
+.list-card-details{font-size:14px;font-weight:600;list-style:none;margin-left:15px;max-width:100%}
+.list-card-details>li{border-left:1px solid #D1D1D5;display:inline;padding:0 6px}
+.list-card-details>li:first-child{border-left:0;padding-left:0}
+.list-card_building .list-card-details{line-height:32px;height:32px;margin-left:0}
+.list-card_building .list-card-details>li:first-child{font-size:24px;font-weight:600;margin-bottom:0}
+.list-card-label{font-size:14px;font-weight:400}
+.list-card-addr{font-size:14px;font-style:normal;font-weight:600;margin-bottom:0;min-width:0}
+.list-card-type{margin-top:3px;height:18px;font-size:12px;line-height:18px;font-weight:600}
+.list-card-favorites-info{color:#A7A6AB;font-size:13px;font-weight:600;max-width:100%;text-align:right}
+.list-card-type-icon{margin-right:5px}
+.list-card_viewed .list-card-type-icon{opacity:.5}
+.list-card-status-icon{margin:0 4px 0 6px}
+.list-card-img{content:'';display:block;padding-top:41.67%;overflow:hidden;position:relative;background-color:#F1F1F4}
+.list-card-img img,.list-card-img svg{position:absolute;left:50%;top:50%;max-width:100%;width:100%;height:auto;transform:translate3d(-50%,-50%,0)}
+.list-card-img .fallback-img{width:auto}
+.list-card-img img:before,.list-card-img svg:before{content:' ';display:block;position:absolute;top:0;left:0;right:0;bottom:0;width:100%;text-align:center;background-color:#F1F1F4}
+.list-card_over-map .list-card-img{padding-top:42.25%}
+.list-card-brokerage,.list-card-variable-text{z-index:1}
+.list-card-badges-container{display:flex;flex-direction:row;justify-content:flex-start;max-width:calc(100% - 50px);z-index:1;position:absolute;top:0}
+.list-card,.list-card-top{position:relative}
+.list-card-badges{padding:0 3px;white-space:nowrap;margin:5px 0;overflow:hidden}
+.list-card-badge-img-overlay>svg,.list-card-variable-text>svg{height:1em;margin-right:6px;stroke:currentColor;vertical-align:middle}
+.list-card-badge-img-overlay .icon-3d-home,.list-card-variable-text .icon-3d-home{margin-top:-2px;width:1em}
+.list-card-badge-img-overlay{background:rgba(0,0,0,.54);color:#FFF;padding:2px 10px;font-size:11px;border-radius:15px;overflow:hidden;text-overflow:ellipsis;flex-shrink:0}
+@media (min-width:359px){.list-card-badge-img-overlay{font-size:12px}
+}
+@media (min-width:1007px){.list-card-badge-img-overlay{font-size:10px}
+}
+@media (min-width:1280px){.list-card-badge-img-overlay{font-size:11px}
+}
+.list-card-badge-rental{background-color:#1e90ff;white-space:nowrap}
+.list-card-badge-new{background-color:#E96E2F;white-space:nowrap}
+.list-card-img-overlay{background:rgba(0,0,0,.54);color:#FFF;padding:5px 15px;font-size:13px}
+.list-card-variable-text{max-width:calc(100% - 40px);left:0;top:0}
+.list-card-variable-text.variable-text_new{background:#E96E2F;color:#FFF}
+.list-card-variable-text .icon-play{margin-top:-1px;width:1em}
+.list-card-brokerage{background:0 0;width:100%;padding-bottom:10px;text-align:right;text-shadow:1px 1px 0 rgba(0,0,0,.25);bottom:0;right:0}
+.list-card-brokerage+.list-card-img:before{background:linear-gradient(to top,rgba(0,0,0,.35) 0,rgba(0,0,0,0) 30%)}
+.provider-logo-overlay{padding:10px 5px;display:grid;grid-template-columns:1fr -webkit-min-content;grid-template-columns:1fr min-content;grid-template-areas:'left right'}
+.provider-logo-overlay .list-card-truncate{display:inline-block;align-items:flex-end;padding-right:5px;grid-area:left;overflow:hidden;text-overflow:ellipsis;height:23px;line-height:23px}
+.provider-logo-overlay .provider-logo{border-radius:2px;grid-area:right}
+.list-card-save,.list-card-share{z-index:1;background:0 0;border:0}
+.list-card-zlogo{height:1.3em;margin-left:3px;margin-bottom:3px;vertical-align:middle}
+.list-card-link{display:grid;order:2}
+.list-card-link:active,.list-card-link:hover,.list-card-link:link,.list-card-link:visited{color:#2A2A33}
+.list-card-actions{display:flex;flex-direction:row;justify-content:space-around;padding:0 6px;right:0;top:0}
+.list-card-save .list-card-save-content{display:block;width:44px;padding:8px 8px 5px;filter:drop-shadow(0 0 1px rgba(0, 0, 0, .66));transition:filter .2s ease-out}
+.list-card-save .list-card-save-content:hover{filter:drop-shadow(0 0 2px #006AFF)}
+.list-card-share .list-card-share-content{display:block;width:44px;padding:8px 8px 5px;filter:drop-shadow(0 0 1px rgba(0, 0, 0, .66));transition:filter .2s ease-out}
+.list-card-share .list-card-share-content:hover{filter:drop-shadow(0 0 2px #006AFF)}
+.list-card-save-content:focus,.list-card-save:focus,.list-card-share-content:focus,.list-card-share:focus{outline-style:none}
+.list-card-save:focus>.list-card-save-content,.list-card-share:focus>.list-card-share-content{outline-width:thick;outline-style:auto;outline-color:#006AFF;filter:drop-shadow(0 0 2px #006AFF)}
+.list-card{display:flex;flex-direction:column-reverse}
+.list-card-info{display:flex;flex-direction:column;min-height:86px}
+.list-card-additional-attribution-space .list-card-info{min-height:116px}
+.list-card-footer{order:3;display:flex;flex-direction:row}
+.list-card-type{order:1}
+.list-card-favorites-info{order:2;flex:1}
+.list-card-actions,.list-card-brokerage,.list-card-variable-text{position:absolute;overflow:hidden}
+.list-card-variable-text .price-increase,.list-card-variable-text .price-reduction{margin-left:-3px}
+@supports (display:grid){.list-card,.list-card-info{display:grid;grid-template-columns:1fr}
+.list-card{grid-template-rows:-webkit-min-content;grid-template-rows:min-content;grid-template-areas:'top' 'bottom'}
+.list-card-info{grid-area:bottom;grid-template-rows:-webkit-min-content repeat(3,auto);grid-template-rows:min-content repeat(3,auto)}
+.list-card-footer,.list-card-heading{grid-template-columns:auto 1fr;display:grid}
+.list-card-heading{grid-row:1/2;align-items:end}
+.list-card-price+.list-card-details{margin-bottom:5px;text-align:right}
+.list-card-footer{grid-row:3/4}
+.list-card-top{grid-area:top;display:grid;grid-template-columns:1fr;grid-template-rows:auto;overflow:hidden}
+.list-card-brokerage,.list-card-img,.list-card-overlay,.list-card-save,.list-card-share,.list-card-variable-text{grid-area:1/1/-1/-1}
+.list-card-variable-text{place-self:start}
+.list-card-save,.list-card-share{align-self:start;justify-self:end}
+.list-card-overlay{background:rgba(0,0,0,.66)}
+}
+.list-card-horizontal{height:104px;border-bottom:none;box-shadow:none;flex-direction:row}
+.list-card-horizontal .list-card-price{font-size:20px;line-height:26px;height:26px}
+.list-card-horizontal .list-card-addr,.list-card-horizontal .list-card-details,.list-card-horizontal .list-card-type{font-size:12px;line-height:18px}
+.list-card-horizontal .list-card-addr,.list-card-horizontal .list-card-details,.list-card-horizontal .list-card-heading,.list-card-horizontal .list-card-price,.list-card-horizontal .list-card-type{margin:0}
+.list-card-horizontal .list-card-info{padding:4px 16px 8px}
+.list-card-horizontal .list-card-img{padding-top:75%;background-color:#FFF}
+.list-card-horizontal.list-card_building .list-card-details{height:auto}
+.list-card-horizontal.list-card_building .list-card-details>li:first-child{display:inline-block;margin:3px 0}
+.list-card-horizontal.list-card_building .list-card-details>li:nth-child(2){border-left:none;padding-left:0;margin:3px 0}
+.list-card-horizontal .horizontal-img{border-left:5px solid #FFF;border-top:5px solid #FFF;border-bottom:5px solid #FFF}
+.list-card-horizontal .list-card-heading{display:flex;flex-direction:column;align-items:flex-start}
+.list-card-horizontal .list-card-top{flex:0 0 128px;order:1}
+.list-card-horizontal .list-card-info{flex:1;order:2}
+.list-card-horizontal .list-card-info.list-card-info-mls-logo{background-position:top 5px right 0;background-repeat:no-repeat}
+.list-card-horizontal .list-card-link{display:flex}
+@supports (display:grid){.list-card-horizontal{display:grid;grid-template-columns:128px 1fr;grid-template-rows:auto;grid-template-areas:none}
+.list-card-horizontal .list-card-info{display:grid;padding-bottom:4px;grid-area:1;grid-column:2;grid-template-columns:1fr;grid-template-rows:repeat(4,auto);min-height:104px;align-items:center}
+.list-card-horizontal .list-card-heading{grid-row:auto;grid-template-columns:none}
+.list-card-horizontal .list-card-type{grid-row:auto}
+.list-card-horizontal .list-card-top{display:grid;grid-area:1;grid-column:1;grid-template-columns:1fr;grid-template-rows:auto}
+.list-card-horizontal .list-card-save,.list-card-horizontal .list-card-share{align-self:start}
+.list-card-horizontal .list-card-footer{grid-template-columns:auto}
+.list-card-horizontal .list-card-footer .list-card-extra-info{font-size:10px;color:#707071;margin:0;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;order:2}
+}
+.list-card .list-card-heading{grid-template-columns:none;grid-template-rows:auto 1fr;align-items:start}
+.list-card .list-card-info{padding:10px}
+.list-card .list-card-info .list-card-link-top-margin{margin-top:8px}
+.list-card .list-card-info .list-card-details{margin:8px 0 0}
+.list-card .list-card-heading-top{display:flex;flex-direction:row;justify-content:space-between;align-items:center}
+.list-card .list-card-price{height:20px;font-size:20px;line-height:22px}
+.list-card .list-card-addr{font-size:12px;font-weight:300;line-height:14px}
+.list-card .list-card-details{font-size:14px;font-weight:300;line-height:16px;text-align:left}
+.list-card .list-card-details>li{border-left:none;padding:0 3px}
+.list-card .list-card-details>li:first-child{border-left:0;padding-left:0}
+.list-card.list-card_building .list-card-details{height:auto}
+.list-card.list-card_building .list-card-details>li{border-left:1px solid #D1D1D5;padding:0 6px}
+.list-card.list-card_building .list-card-details>li:first-child{border-left:0;padding-left:0;font-size:14px;font-weight:300}
+.list-card.list-card-additional-attribution-space .list-card-footer{height:30px;margin:0;max-width:100%;word-wrap:break-word;overflow-wrap:break-word;white-space:normal;grid-template-columns:none}
+#search-list-upsell-container,.carousel-article,.search-page-map-container,.visually-hidden{overflow:hidden}
+.list-card.list-card-additional-attribution-space .list-card-footer .list-card-extra-info{color:#707071;font-size:10px;line-height:12px;margin:6px 0 0}
+@media (min-width:641px){.list-card.list-card-additional-attribution-space .list-card-footer .list-card-extra-info{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+}
+.list-card.list-card-horizontal .list-card-footer{height:18px}
+.list-card-carousel{position:relative;width:300%;right:100%;display:-ms-grid;display:grid;-ms-grid-columns:1fr 1fr 1fr;grid-template-columns:1fr 1fr 1fr;touch-action:pan-y pinch-zoom}
+.list-card-carousel.big-carousel{grid-template-areas:'left mid right' 'left bottom right'}
+.list-card-carousel .carousel-list-card-left{-ms-grid-column:1;-ms-grid-row:1;-ms-grid-row-span:2;grid-area:left}
+.list-card-carousel .carousel-list-card-mid{-ms-grid-column:2;grid-area:mid}
+.list-card-carousel .carousel-list-card-right{-ms-grid-column:3;-ms-grid-row:1;-ms-grid-row-span:2;grid-area:right}
+.list-card-carousel .list-card-link{grid-column:auto}
+.list-card-carousel .normal-list-card-photo-link{min-height:144px}
+.list-card-carousel .list-card-info{-ms-grid-column:2;-ms-grid-row:2}
+.list-card-carousel .tour-link-cover-up{background-color:#000}
+.list-card-carousel .tour-image-cover-up{opacity:.3}

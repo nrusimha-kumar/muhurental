@@ -1,0 +1,13 @@
+{
+    "primaryURL": "./img/p2.jpg",
+    "id": "7001002",
+    "price": "20K",
+    "Address":  "12345 MACKY STREET APT 311 KS",
+    "bds":"3",
+    "ba":"2",
+    "sqft":"2,130",
+    "agent":"JOHN",
+    "type":"House",
+    "listing-history":[],
+    "description":"Charming 3-bedroom, 2-bathroom home with modern amenities and open floor plan. Spacious backyard with a deck for outdoor entertaining. Located in a quiet, family-friendly neighborhood with easy access to schools and parks."
+}

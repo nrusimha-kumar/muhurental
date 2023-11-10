@@ -1,0 +1,90 @@
+[{
+      "price": "15K",
+      "primaryURL":"./img/p1.jpg",
+      "Address":"10012 WALNUT DR APT 101 KS CITY MO",
+      "id": "7001001",
+      "bds":"3",
+      "ba":"3",
+      "sqft":"1,820",
+      "agent":"ROB",
+      "type":"House"
+    },
+    {
+      "primaryURL": "./img/p2.jpg",
+      "id": "7001002",
+      "price": "20K",
+      "Address": "12345 MACKY STREET APT 311 KS",
+      "bds":"3",
+      "ba":"2",
+      "sqft":"2,130",
+      "agent":"JOHN",
+      "type":"House"
+    },
+    {
+      "primaryURL": "./img/p3.jpg",
+      "id": "7001003",
+      "price": "25K",
+      "Address": "12555 HARDY STREET POINTE ROYAL OVERLAND PARK KS",
+      "bds":"3",
+      "ba":"2",
+      "sqft":"2,130",
+      "agent":"JAYANTH",
+      "type":"House"
+    },
+    {
+      "primaryURL": "./img/p4.jpg",
+      "id": "7001004",
+      "price": "30K",
+      "Address": "9000 THRILL DESI BYTES OP KANSAS ",
+      "bds":"3",
+      "ba":"2",
+      "sqft":"2,130",
+      "agent":"RAHIL",
+      "type":"House"
+    },
+    {
+      "primaryURL": "./img/p5.jpg",
+      "id": "7001005",
+      "price": "35K",
+      "Address": "4000 CHEATERS SOUTH SIDE OP MEXICAN",
+      "bds":"3",
+      "ba":"2",
+      "sqft":"2,130",
+      "agent":"AAQIB",
+      "type":"House"
+    },
+    {
+      "primaryURL": "./img/p6.jpg",
+      "id": "7001006",
+      "price": "40K",
+      "Address": "10000 ROBER NORTH HILLS OP KS",
+      "bds":"3",
+      "ba":"2",
+      "sqft":"2,130",
+      "agent":"RUPA",
+      "type":"House"
+    },
+    {
+      "primaryURL": "./img/p7.jpg",
+      "id": "7001007",
+      "price": "45K",
+      "Address": "14314 QUIT ROAD KANSAS",
+      "bds":"3",
+      "ba":"2",
+      "sqft":"2,130",
+      "agent":"RAJI",
+      "type":"House"
+    },
+    {
+      "primaryURL": "./img/p8.jpg",
+      "id": "7001008",
+      "price": "50K",
+      "Address": "17666 STRIPPER ROAD KANSAS",
+      "bds":"3",
+      "ba":"2",
+      "sqft":"2,130",
+      "agent":"MANOJ",
+      "type":"House"
+    }
+  ]
+
